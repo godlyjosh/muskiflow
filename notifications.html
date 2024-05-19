@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSIKFLOW - Notifications and Communication</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="MUSIKFLOW Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="artist-dashboard.html">Dashboard</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="logout.html">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Notifications and Communication Section -->
+    <section class="notifications-communication">
+        <div class="container">
+            <h1>Notifications and Communication</h1>
+
+            <!-- Notification Center -->
+            <div class="notification-center">
+                <h2>Notification Center</h2>
+                <ul id="notificationList">
+                    <!-- Notifications will be displayed here -->
+                </ul>
+            </div>
+
+            <!-- Integrated Messaging -->
+            <div class="integrated-messaging">
+                <h2>Integrated Messaging</h2>
+                <div id="messagesList">
+                    <!-- Messages will be displayed here -->
+                </div>
+                <form id="messageForm">
+                    <textarea id="messageInput" name="message" rows="3" placeholder="Type your message here..."></textarea>
+                    <button type="submit" class="btn">Send</button>
+                </form>
+            </div>
+
+            <!-- Email Notifications -->
+            <div class="email-notifications">
+                <h2>Email Notifications</h2>
+                <label for="emailNotificationToggle">Enable Email Notifications:</label>
+                <input type="checkbox" id="emailNotificationToggle">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 MUSIKFLOW. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
